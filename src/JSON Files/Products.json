@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "image": "https://crochetalcuadrado.com.ar/wp-content/uploads/2020/09/Portada-post-1.png",
+        "name": "Toalla Desmaquillante",
+        "price": 2500,
+        "isFavorite": false
+    },
+    {
+        "id": 2,
+        "image": "https://img.freepik.com/foto-gratis/sueteres-calidos-punto-colores-pastel-corazon-madera-decorativo_169016-11432.jpg?w=1380&t=st=1693525337~exp=1693525937~hmac=e444da3a399692ac0cdbbdfde0c990d14116cf66365e1b24d1ca3db3df0730e6",
+        "name": "Bufanda Beige",
+        "price": 5650,
+        "isFavorite": false
+    },
+    {
+        "id": 3,
+        "image": "https://http2.mlstatic.com/D_NQ_NP_899052-MLA43664568810_102020-O.webp",
+        "name": "Pad Desmaquillante",
+        "price": 1500,
+        "isFavorite": false
+    },
+    {
+        "id": 4,
+        "image": "https://http2.mlstatic.com/D_NQ_NP_899052-MLA43664568810_102020-O.webp",
+        "name": "Posavasos Lisos x3",
+        "price": 1500,
+        "isFavorite": false
+    },
+    {
+        "id": 5,
+        "image": "https://http2.mlstatic.com/D_NQ_NP_899052-MLA43664568810_102020-O.webp",
+        "name": "Posavasos Patron x3",
+        "price": 1500,
+        "isFavorite": false
+    },
+    {
+        "id": 6,
+        "image": "https://http2.mlstatic.com/D_NQ_NP_899052-MLA43664568810_102020-O.webp",
+        "name": "Caminito de mesa 1,2m",
+        "price": 3800,
+        "isFavorite": false
+    },
+    {
+        "id": 7,
+        "image": "https://http2.mlstatic.com/D_NQ_NP_899052-MLA43664568810_102020-O.webp",
+        "name": "Caminito de mesa 50cm",
+        "price": 2600,
+        "isFavorite": false
+    },
+    {
+        "id": 8,
+        "image": "https://http2.mlstatic.com/D_NQ_NP_899052-MLA43664568810_102020-O.webp",
+        "name": "Sobre c/cierre Liso",
+        "price": 4500,
+        "isFavorite": false
+    },
+    {
+        "id": 9,
+        "image": "https://http2.mlstatic.com/D_NQ_NP_899052-MLA43664568810_102020-O.webp",
+        "name": "Manta Rombos Colores 2m",
+        "price": 15500,
+        "isFavorite": false
+    },
+    {
+        "id": 10,
+        "image": "https://http2.mlstatic.com/D_NQ_NP_899052-MLA43664568810_102020-O.webp",
+        "name": "Manta Lisa 2m",
+        "price": 10500,
+        "isFavorite": false
+    }
+    
+]
