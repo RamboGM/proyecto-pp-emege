@@ -1,5 +1,6 @@
 import React from 'react';
 import Logoimagen from '../imagenes/portada-principal.png';
+import '../Stylesheets/Home.css';
 
 
 function home() {

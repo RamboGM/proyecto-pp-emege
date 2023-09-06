@@ -8,6 +8,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Navbar from './componentes/Navbar';
 
 
 
@@ -15,22 +16,8 @@ import {
 function App() {
   return (
     <Router>
-      <div className='container mt-5'>
-      <div className='btn-group'>
-        <Link to='/' className='btn btn-dark'>
-          Inicio
-        </Link>
-        <Link to='/catalog' className='btn btn-dark'>
-          Catalogo
-        </Link>
-        <Link to='/contacto' className='btn btn-dark'>
-          Contacto
-        </Link>
-        <Link to='/wishlist' className='btn btn-dark'>
-          Wishlist
-        </Link>
-      </div>
-      <hr />
+      <Navbar />
+  
         <Routes>
           <Route path='/catalog' element={<Catalog />}>
         
@@ -39,7 +26,7 @@ function App() {
             
           </Route>
         </Routes>
-      </div>
+
     </Router>
     
     
