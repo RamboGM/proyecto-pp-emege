@@ -19,10 +19,10 @@ const Navbar = () => {
                                  <Link className="nav-link active" to='/' >Inicio</Link>
                              </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to='/catalogo'>Catálogo</Link>
+                                <Link className="nav-link" to='/catalog'>Catálogo</Link>
                             </li>
                             <li className="nav-item dropdown">
-                                <Link className="nav-link dropdown-toggle" to='/categorias' role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <Link className="nav-link dropdown-toggle" to='/MiCuenta' role="button" data-bs-toggle="dropdown" aria-expanded="true">
                                 Mi cuenta
                                 </Link>
                         <ul className="dropdown-menu">

@@ -1,6 +1,6 @@
 
 import './App.css';
-import Catalog from './componentes/Wishlist';
+import Catalog from './componentes/Catalog';
 import Home from './componentes/Home';
 import {
   BrowserRouter as Router,
@@ -9,6 +9,7 @@ import {
   Link
 } from "react-router-dom";
 import Navbar from './componentes/Navbar';
+import MiCuenta from './componentes/MiCuenta.jsx';
 
 
 
@@ -17,14 +18,12 @@ function App() {
   return (
     <Router>
       <Navbar />
+      
   
         <Routes>
-          <Route path='/catalog' element={<Catalog />}>
-        
-          </Route>
-          <Route path='/' element={<Home/>}>
-            
-          </Route>
+          <Route path='/catalog' exact element={<Catalog />}></Route>
+          <Route path='/MiCuenta' exact element={<MiCuenta/>}></Route>
+          <Route path='/' exact element={<Home/>}></Route>
         </Routes>
 
     </Router>
