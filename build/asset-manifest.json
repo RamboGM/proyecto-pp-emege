@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/proyecto-pp-emege/static/css/main.b84d3485.css",
+    "main.js": "/proyecto-pp-emege/static/js/main.eee84fc3.js",
+    "static/media/portada-principal.png": "/proyecto-pp-emege/static/media/portada-principal.fbcff589293fc8f6ff78.png",
+    "static/media/logo.png": "/proyecto-pp-emege/static/media/logo.20f8196048b5c9786640.png",
+    "index.html": "/proyecto-pp-emege/index.html",
+    "main.b84d3485.css.map": "/proyecto-pp-emege/static/css/main.b84d3485.css.map",
+    "main.eee84fc3.js.map": "/proyecto-pp-emege/static/js/main.eee84fc3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b84d3485.css",
+    "static/js/main.eee84fc3.js"
+  ]
+}
