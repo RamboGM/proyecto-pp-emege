@@ -25,7 +25,7 @@ class MiCuenta extends Component {
         <div>
           <h3>Favoritos</h3>
           <ul>
-            {this.state.favoritos.map((favorito) => (
+            {this.state.favorito.map((favorito) => (
               <li key={favorito.id}>{favorito.name}</li>
             ))}
           </ul>

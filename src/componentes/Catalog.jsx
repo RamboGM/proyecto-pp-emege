@@ -7,7 +7,10 @@ const Catalog = () => {
   const [favorites, setFavorites] = useState([]);
 
   useEffect(() => {
-    setProducts(Products);
+    // Verifica si Products es un array válido antes de establecerlo como el estado
+    if (Array.isArray(Products)) {
+      setProducts(Products);
+    }
   }, []);
 
   const toggleFavorite = (productId) => {
@@ -41,23 +44,26 @@ const Catalog = () => {
       </ul>
       <h2>Productos Favoritos</h2>
       <ul>
-        {favorites.map((favoriteProduct) => (
-          <li key={favoriteProduct.id}>
-            <img src={favoriteProduct.image} alt={favoriteProduct.name} />
-            <h3>{favoriteProduct.name}</h3>
-            <p>Precio: ${favoriteProduct.price}</p>
-            <button onClick={() => toggleFavorite(favoriteProduct.id)}>
-              Quitar de Favoritos
-            </button>
-          </li>
-        ))}
+        {Array.isArray(favorites) &&
+          favorites.map((favoriteProduct) => (
+            <li key={favoriteProduct.id}>
+              <img src={favoriteProduct.image} alt={favoriteProduct.name} />
+              <h3>{favoriteProduct.name}</h3>
+              <p>Precio: ${favoriteProduct.price}</p>
+              <button onClick={() => toggleFavorite(favoriteProduct.id)}>
+                Quitar de Favoritos
+              </button>
+            </li>
+          ))}
       </ul>
-      <MiCuenta favoritos={this.state.favorites} />
+      <MiCuenta favoritos={favorites} />
     </div>
   );
 };
 
 export default Catalog;
+
+
 
 
 
