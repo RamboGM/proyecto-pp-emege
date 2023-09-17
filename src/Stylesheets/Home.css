@@ -28,4 +28,11 @@
     text-align: center;
     color: azure;
 }
-    
+
+h5 {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}

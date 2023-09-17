@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import Navbar from './componentes/Navbar';
 import MiCuenta from './componentes/MiCuenta.jsx';
+import Contacto from './componentes/Contacto.jsx';
 
 
 
@@ -24,6 +25,7 @@ function App() {
           <Route path='/catalog' exact element={<Catalog />}></Route>
           <Route path='/MiCuenta' exact element={<MiCuenta/>}></Route>
           <Route path='/' exact element={<Home/>}></Route>
+          <Route path='/contacto' exact element={<Contacto />}></Route>
         </Routes>
 
     </Router>

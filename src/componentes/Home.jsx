@@ -26,21 +26,21 @@ function home() {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={Imagen1} className="d-block w-10" alt="Posavasos Pelitos" />
+            <img src={Imagen1} className="d-block w-5" alt="Posavasos Pelitos" />
             <div className="carousel-caption d-none d-md-block">
               <h5>First slide label</h5>
               <p>Some representative placeholder content for the first slide.</p>
             </div>
           </div>
           <div className="carousel-item">
-            <img src={Imagen2} className="d-block w-10" alt="Posavasos Gatitos" />
+            <img src={Imagen2} className="d-block w-5" alt="Posavasos Gatitos" />
             <div className="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
               <p>Some representative placeholder content for the second slide.</p>
             </div>
           </div>
           <div className="carousel-item">
-            <img src={Imagen3} className="d-block w-10" alt="Posavasos 2" />
+            <img src={Imagen3} className="d-block w-5" alt="Posavasos 2" />
             <div className="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>Some representative placeholder content for the third slide.</p>
