@@ -18,14 +18,16 @@ import Contacto from './componentes/Contacto.jsx';
 function App() {
   return (
     <Router>
+      
       <Navbar />
       
   
         <Routes>
+          <Route path='/' exact element={<Home/>}></Route>
           <Route path='/catalog' exact element={<Catalog />}></Route>
           <Route path='/MiCuenta' exact element={<MiCuenta/>}></Route>
-          <Route path='/' exact element={<Home/>}></Route>
           <Route path='/contacto' exact element={<Contacto />}></Route>
+          
         </Routes>
 
     </Router>
