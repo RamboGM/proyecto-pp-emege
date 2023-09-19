@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../imagenes/logo.png';
+import '../Stylesheets/Navbar.css';
 
 const Navbar = () => {
     return (
@@ -21,23 +22,10 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <Link className="nav-link" to='/catalog'>Catálogo</Link>
                             </li>
-                            <li className="nav-item dropdown">
-                                <Link className="nav-link dropdown-toggle" to='/MiCuenta' role="button" data-bs-toggle="dropdown" aria-expanded="true">
-                                Mi cuenta
-                                </Link>
-                        <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" href="#">Crear Cuenta</a></li>
-                            <li><a className="dropdown-item" href="#">Iniciar Sesión</a></li>
-                        </ul>
-                            </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to='/contacto'>Contacto</Link>
                             </li>
                         </ul>
-                    <form className="d-flex" role="search">
-                        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                            <button className="btn btn-outline-success" type="submit">Search</button>
-                    </form>
                      </div>
                  </div>
             </nav>

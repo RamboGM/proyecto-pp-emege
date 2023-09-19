@@ -1,0 +1,25 @@
+.contacto-container {
+    font-family: roboto, sans-serif;
+    font-size: large;
+    font-weight: 200;
+}
+
+.Boton-whatsapp {
+    border-color: blanchedalmond;
+    border-radius: 0%;
+    background-color: beige;
+    border-style: hidden;
+}
+
+.contacto-whatsapp {
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+    
+}
+
+h2 {
+    font-family: roboto, sans-serif;
+    font-size: large;
+    font-weight: 200;
+}

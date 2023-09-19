@@ -1,6 +1,5 @@
 
 import './App.css';
-import Catalog from './componentes/Catalog';
 import Home from './componentes/Home';
 import {
   BrowserRouter as Router,
@@ -11,6 +10,7 @@ import {
 import Navbar from './componentes/Navbar';
 import MiCuenta from './componentes/MiCuenta.jsx';
 import Contacto from './componentes/Contacto.jsx';
+import CatalogoProductos from './componentes/Catalogo.jsx';
 
 
 
@@ -24,7 +24,7 @@ function App() {
   
         <Routes>
           <Route path='/' exact element={<Home/>}></Route>
-          <Route path='/catalog' exact element={<Catalog />}></Route>
+          <Route path='/catalog' exact element={<CatalogoProductos />}></Route>
           <Route path='/MiCuenta' exact element={<MiCuenta/>}></Route>
           <Route path='/contacto' exact element={<Contacto />}></Route>
           

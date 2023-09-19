@@ -69,13 +69,13 @@ function home() {
     <img src="..." className="card-img-top" alt="..."/>
     <div className="card-body">
       <h5 className="card-title">Elegís</h5>
-      <p className="card-text">Agregá lo que más de guste a tu Wishlist!</p>
+      <p className="card-text">Agregá lo que más te guste a tu Wishlist!</p>
     </div>
   </div>
   <div className="card">
     <img src="..." className="card-img-top" alt="..."/>
     <div className="card-body">
-      <h5 className="card-title">Compartilo!</h5>
+      <h5 className="card-title">Compartilo</h5>
       <p className="card-text">Compartilo vía Whatsapp!</p>
     </div>
   </div>

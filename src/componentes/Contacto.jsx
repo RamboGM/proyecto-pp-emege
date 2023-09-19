@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Stylesheets/Contacto.css';
 
 function Contacto() {
   const numeroWhatsApp = '+543544523837';
@@ -14,15 +15,19 @@ function Contacto() {
       <div className="contacto-info">
         <h2>Información de Contacto</h2>
         <p>Email: example@example.com</p>
-        <p>Teléfono: +1234567890</p>
-        <p>Ciudad: Ciudad Ejemplo</p>
+        <p>Teléfono: (3544)523837</p>
+        <p>Ciudad: Córdoba</p>
       </div>
       <div className="contacto-whatsapp">
         <h2>¡Estemos en Contacto!</h2>
-        <button onClick={handleWhatsAppClick}>Contactar por WhatsApp</button>
+        <button className='Boton-whatsapp' onClick={handleWhatsAppClick}>Contactar por WhatsApp</button>
       </div>
     </div>
   );
+
+  
+
+
 }
 
 export default Contacto;
