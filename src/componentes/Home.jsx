@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { Link } from 'react-router-dom';
-import Logoimagen from '../imagenes/portada-principal.png';
+import Logoimagen from '../imagenes/portadaPrincipal.jpg';
 import '../Stylesheets/Home.css';
 import WhatsAppButton from './WhatsappButton';
 import Footer from './Footer';

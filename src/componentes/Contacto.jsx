@@ -1,33 +1,45 @@
 import React from 'react';
-import '../Stylesheets/Contacto.css';
+import '../Stylesheets/Contacto.css'; 
 
-function Contacto() {
-  const numeroWhatsApp = '+543544523837';
-  const mensajeWhatsApp = '¡Hola! Me gustaria consultar sobre';
-
-  const handleWhatsAppClick = () => {
-    const url = `https://api.whatsapp.com/send?phone=${encodeURIComponent(numeroWhatsApp)}&text=${encodeURIComponent(mensajeWhatsApp)}`;
-    window.location.href = url;
-  };
-
+const Contacto = () => {
   return (
-    <div className="contacto-container">
-      <div className="contacto-info">
-        <h2>Información de Contacto</h2>
-        <p>Email: example@example.com</p>
-        <p>Teléfono: (3544)523837</p>
-        <p>Ciudad: Córdoba</p>
-      </div>
-      <div className="contacto-whatsapp">
-        <h2>¡Estemos en Contacto!</h2>
-        <button className='Boton-whatsapp' onClick={handleWhatsAppClick}>Contactar por WhatsApp</button>
-      </div>
-    </div>
+    <><div className="contacto-imagen">
+          <img src="tu_imagen.jpg" alt="Imagen de contacto" />
+      </div><section className="contacto-container">
+              <div className="contacto-info">
+                  <h2>Contacto</h2>
+                  <div className="contacto-datos">
+                      <div className="dato">
+                          <i className="fas fa-envelope"></i>
+                          <span>Correo Electrónico: ejemplo@gmail.com</span>
+                      </div>
+                      <div className="dato">
+                          <i className="fas fa-phone"></i>
+                          <span>Celular: (3544)523837</span>
+                      </div>
+                      <div className="dato">
+                          <i className="fas fa-map-marker-alt"></i>
+                          <span>Ciudad: Córdoba</span>
+                      </div>
+                  </div>
+              </div>
+
+              <div className="contacto-escribir">
+                  <h3>Escríbenos</h3>
+                  <a
+                      href="https://api.whatsapp.com/send?phone=+543544523837&text=Hola%2C%20me%20gustaría%20contactar%20contigo."
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="whatsapp-btn"
+                  >
+                      Chatear por WhatsApp
+                  </a>
+              </div>
+
+
+          </section></>
   );
-
-  
-
-
-}
+};
 
 export default Contacto;
+

@@ -3,3 +3,11 @@
     background-color: antiquewhite;
     width: auto;
 }
+
+.Logo-Principal-Marca {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

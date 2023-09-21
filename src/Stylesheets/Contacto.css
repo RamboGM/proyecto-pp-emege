@@ -1,25 +1,57 @@
+/* Contacto.css */
 .contacto-container {
-    font-family: roboto, sans-serif;
-    font-size: large;
-    font-weight: 200;
-}
-
-.Boton-whatsapp {
-    border-color: blanchedalmond;
-    border-radius: 0%;
-    background-color: beige;
-    border-style: hidden;
-}
-
-.contacto-whatsapp {
     display: flex;
-    justify-content: right;
-    margin-right: 50px;
-    
-}
-
-h2 {
-    font-family: roboto, sans-serif;
-    font-size: large;
-    font-weight: 200;
-}
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .contacto-info {
+    flex: 1;
+  }
+  
+  .contacto-datos {
+    margin-top: 20px;
+  }
+  
+  .dato {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .dato i {
+    margin-right: 10px;
+  }
+  
+  .contacto-escribir {
+    flex: 1;
+    margin-left: 20px;
+    text-align: center;
+  }
+  
+  .whatsapp-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .whatsapp-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .contacto-imagen img {
+    width: 100%;
+    max-height: 300px;
+  }
+  
+  h2, h3 {
+    color: #333;
+  }
+  
+  /* Agrega otros estilos según tus preferencias */
+  

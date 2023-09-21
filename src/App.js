@@ -11,26 +11,31 @@ import Navbar from './componentes/Navbar';
 import MiCuenta from './componentes/MiCuenta.jsx';
 import Contacto from './componentes/Contacto.jsx';
 import CatalogoProductos from './componentes/Catalogo.jsx';
+import Marca from './imagenes/Nombre-marca.png';
 
 
 
 
 function App() {
   return (
-    <Router>
-      
-      <Navbar />
-      
-  
-        <Routes>
-          <Route path='/' exact element={<Home/>}></Route>
-          <Route path='/catalog' exact element={<CatalogoProductos />}></Route>
-          <Route path='/MiCuenta' exact element={<MiCuenta/>}></Route>
-          <Route path='/contacto' exact element={<Contacto />}></Route>
-          
-        </Routes>
 
-    </Router>
+    <><div className='Logo-Principal-Marca'>
+        <img src={Marca} alt='Imagen Marca' />
+      </div>
+      <Router>
+
+      <Navbar />
+
+
+      <Routes>
+        <Route path='/' exact element={<Home />}></Route>
+        <Route path='/catalog' exact element={<CatalogoProductos />}></Route>
+        <Route path='/MiCuenta' exact element={<MiCuenta />}></Route>
+        <Route path='/contacto' exact element={<Contacto />}></Route>
+
+      </Routes>
+
+    </Router></>
     
     
   );
