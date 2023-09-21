@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/rambogm.github.io/proyecto-pp-emege/static/css/main.55444fde.css",
-    "main.js": "/rambogm.github.io/proyecto-pp-emege/static/js/main.2c802776.js",
-    "static/media/portadaPrincipal.jpg": "/rambogm.github.io/proyecto-pp-emege/static/media/portadaPrincipal.b189ef314ea53da54cd9.jpg",
-    "static/media/logo.png": "/rambogm.github.io/proyecto-pp-emege/static/media/logo.20f8196048b5c9786640.png",
-    "static/media/Posavasos_Gatitoos.jpg": "/rambogm.github.io/proyecto-pp-emege/static/media/Posavasos_Gatitoos.5d6c5f08ac3f30397079.jpg",
-    "static/media/Nombre-marca.png": "/rambogm.github.io/proyecto-pp-emege/static/media/Nombre-marca.db190f8bb5affe90205c.png",
-    "static/media/Posavados_2.jpg": "/rambogm.github.io/proyecto-pp-emege/static/media/Posavados_2.f8207528fb0c9b080320.jpg",
-    "static/media/Posavasos_Pelitos.jpg": "/rambogm.github.io/proyecto-pp-emege/static/media/Posavasos_Pelitos.ba0cb5c8bcd487de368e.jpg",
-    "index.html": "/rambogm.github.io/proyecto-pp-emege/index.html",
-    "main.55444fde.css.map": "/rambogm.github.io/proyecto-pp-emege/static/css/main.55444fde.css.map",
-    "main.2c802776.js.map": "/rambogm.github.io/proyecto-pp-emege/static/js/main.2c802776.js.map"
+    "main.css": "/proyecto-pp-emege/static/css/main.55444fde.css",
+    "main.js": "/proyecto-pp-emege/static/js/main.c28fee5e.js",
+    "static/media/portadaPrincipal.jpg": "/proyecto-pp-emege/static/media/portadaPrincipal.b189ef314ea53da54cd9.jpg",
+    "static/media/logo.png": "/proyecto-pp-emege/static/media/logo.20f8196048b5c9786640.png",
+    "static/media/Posavasos_Gatitoos.jpg": "/proyecto-pp-emege/static/media/Posavasos_Gatitoos.5d6c5f08ac3f30397079.jpg",
+    "static/media/Nombre-marca.png": "/proyecto-pp-emege/static/media/Nombre-marca.db190f8bb5affe90205c.png",
+    "static/media/Posavados_2.jpg": "/proyecto-pp-emege/static/media/Posavados_2.f8207528fb0c9b080320.jpg",
+    "static/media/Posavasos_Pelitos.jpg": "/proyecto-pp-emege/static/media/Posavasos_Pelitos.ba0cb5c8bcd487de368e.jpg",
+    "index.html": "/proyecto-pp-emege/index.html",
+    "main.55444fde.css.map": "/proyecto-pp-emege/static/css/main.55444fde.css.map",
+    "main.c28fee5e.js.map": "/proyecto-pp-emege/static/js/main.c28fee5e.js.map"
   },
   "entrypoints": [
     "static/css/main.55444fde.css",
-    "static/js/main.2c802776.js"
+    "static/js/main.c28fee5e.js"
   ]
 }
