@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.55444fde.css",
-    "main.js": "./static/js/main.8d00e7eb.js",
-    "static/media/portadaPrincipal.jpg": "./static/media/portadaPrincipal.b189ef314ea53da54cd9.jpg",
-    "static/media/logo.png": "./static/media/logo.20f8196048b5c9786640.png",
-    "static/media/Posavasos_Gatitoos.jpg": "./static/media/Posavasos_Gatitoos.5d6c5f08ac3f30397079.jpg",
-    "static/media/Nombre-marca.png": "./static/media/Nombre-marca.db190f8bb5affe90205c.png",
-    "static/media/Posavados_2.jpg": "./static/media/Posavados_2.f8207528fb0c9b080320.jpg",
-    "static/media/Posavasos_Pelitos.jpg": "./static/media/Posavasos_Pelitos.ba0cb5c8bcd487de368e.jpg",
-    "index.html": "./index.html",
-    "main.55444fde.css.map": "./static/css/main.55444fde.css.map",
-    "main.8d00e7eb.js.map": "./static/js/main.8d00e7eb.js.map"
+    "main.css": "/proyecto-pp-emege/static/css/main.a9b3bc41.css",
+    "main.js": "/proyecto-pp-emege/static/js/main.3dc8c9ca.js",
+    "static/media/portadaPrincipal.jpg": "/proyecto-pp-emege/static/media/portadaPrincipal.b189ef314ea53da54cd9.jpg",
+    "static/media/logo.png": "/proyecto-pp-emege/static/media/logo.20f8196048b5c9786640.png",
+    "static/media/Posavasos_Gatitoos.jpg": "/proyecto-pp-emege/static/media/Posavasos_Gatitoos.5d6c5f08ac3f30397079.jpg",
+    "static/media/Nombre-marca.png": "/proyecto-pp-emege/static/media/Nombre-marca.db190f8bb5affe90205c.png",
+    "static/media/Posavados_2.jpg": "/proyecto-pp-emege/static/media/Posavados_2.f8207528fb0c9b080320.jpg",
+    "static/media/Posavasos_Pelitos.jpg": "/proyecto-pp-emege/static/media/Posavasos_Pelitos.ba0cb5c8bcd487de368e.jpg",
+    "index.html": "/proyecto-pp-emege/index.html",
+    "main.a9b3bc41.css.map": "/proyecto-pp-emege/static/css/main.a9b3bc41.css.map",
+    "main.3dc8c9ca.js.map": "/proyecto-pp-emege/static/js/main.3dc8c9ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.55444fde.css",
-    "static/js/main.8d00e7eb.js"
+    "static/css/main.a9b3bc41.css",
+    "static/js/main.3dc8c9ca.js"
   ]
 }
