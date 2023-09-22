@@ -2,6 +2,8 @@
 .container {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    justify-content: center;
+    
   }
   
   h1 {
@@ -10,7 +12,7 @@
   }
   
   .card {
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-color: transparent;
     margin: 20px;
     padding: 20px;
   }
@@ -72,3 +74,91 @@
   .btn-success{
     height: auto;
   }
+
+  .btn-primary{
+    background-color: bisque;
+    border-color: bisque;
+  }
+
+  .btn-primary:hoover {
+    color: azure;
+  }
+
+  /*** ESTILOS BOTÓN SLIDE TOP ***/
+.btn-cart {
+  background: #a02828; /* color de fondo */
+  color: black; /* color de fuente */
+  border: 1px solid beige; /* tamaño y color de borde */
+  padding: 16px 20px;
+  border-radius: 1px; /* redondear bordes */
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+.btn-cart:hover {
+  color: #fff; /* color de fuente hover */
+}
+.btn-cart::after {
+  content: "";
+  background: bisque; /* color de fondo hover */
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  left: 0;
+  right: 0;
+  top: -100%;
+  bottom: 100%;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.btn-cart:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+/*** ESTILOS BOTÓN GROW SKEW ***/
+.btn-whatsapp {
+  display: flex;
+  align-items: center;
+  background: #fff; /* color de fondo */
+  color: #4741d7; /* color de fuente */
+  border: 2px solid #4741d7; /* tamaño y color de borde */
+  padding: 16px 20px;
+  border-radius: 3px; /* redondear bordes */
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+.btn-whatsapp:hover {
+  color: #fff;/* color de fuente hover */
+}
+.btn-whatsapp::after {
+  content: "";
+  background: #4741d7; /* color de fondo hover */
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.3s ease;
+}
+.btn-whatsapp:hover::after {
+  transition: all 0.3s ease-out;
+  transform: skewX(-45deg) scale(1, 1);
+}
+
+.carrito-compras-titulo {
+  display: flex;
+  align-items: flex-end;
+}

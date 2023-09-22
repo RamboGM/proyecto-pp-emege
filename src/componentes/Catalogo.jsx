@@ -66,7 +66,7 @@ function CatalogoProductos() {
                   <h5 className="card-title">{producto.name}</h5>
                   <p className="card-text">Precio: ${producto.price}</p>
                   <button
-                    className="btn btn-primary"
+                    className="btn btn-cart"
                     onClick={() => addToCart(producto)}
                   >
                     Agregar al Carrito
@@ -76,7 +76,7 @@ function CatalogoProductos() {
             </div>
           ))}
         </div>
-        <h2>Carrito de Compras</h2>
+        <h1 className='carrito-compras-titulo'>Carrito de Compras</h1>
         <ul>
           {carrito.map((producto) => (
             <li key={producto.id}>
@@ -85,7 +85,7 @@ function CatalogoProductos() {
           ))}
         </ul>
         {carrito.length > 0 && (
-          <button className="btn btn-success" onClick={compartirCarritoWhatsApp}>
+          <button className="btn btn-whatsapp" onClick={compartirCarritoWhatsApp}>
             Compartir Carrito por WhatsApp
           </button>
         )}
