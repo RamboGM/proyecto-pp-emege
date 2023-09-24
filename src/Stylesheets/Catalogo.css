@@ -1,5 +1,5 @@
 /* Estilo para el catálogo de productos */
-.container {
+.container-cards {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     justify-content: center;
@@ -15,6 +15,9 @@
     border-color: transparent;
     margin: 20px;
     padding: 20px;
+    width:auto;
+    height: auto;
+    
   }
   
   .card-title {
@@ -86,7 +89,7 @@
 
   /*** ESTILOS BOTÓN SLIDE TOP ***/
 .btn-cart {
-  background: #a02828; /* color de fondo */
+  background: rgb(191, 165, 155); /* color de fondo */
   color: black; /* color de fuente */
   border: 1px solid beige; /* tamaño y color de borde */
   padding: 16px 20px;
@@ -159,6 +162,6 @@
 }
 
 .carrito-compras-titulo {
-  display: flex;
-  align-items: flex-end;
+  
+  
 }
