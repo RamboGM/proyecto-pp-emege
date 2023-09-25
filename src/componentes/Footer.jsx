@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../imagenes/logo.png';
+import logo from '../imagenes/ec.png';
 import '../Stylesheets/Footer.css';
 
 
@@ -12,10 +12,9 @@ const Footer = () => {
           <div className="col-md-3">
             <h5>Enlaces Rápidos</h5>
             <ul className="list-unstyled">
-              <li><a href="/Home">Inicio</a></li>
+              <li><a href="/">Inicio</a></li>
               <li><a href="/contacto">Contacto</a></li>
               <li><a href="/catalog">Catálogo</a></li>
-              <li><a href="/MiCuenta">Mi Cuenta</a></li>
             </ul>
           </div>
           <div className="col-md-3">

@@ -1,34 +1,27 @@
 .container {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
-    margin-left: -12px;
-    height: auto;
+    
+    max-width: fit-content;
+    
 }
 
 .container-catalogo {
-    background-color: rgb(252, 220, 207);
+    background-color: #cc7453;
     height: 220px;
-    font-family: roboto, sans-serif;
+    font-family: montserrat, sans-serif;
     text-align: center;
     color: azure;
-}
-
-.btn-outline-light{
-    color: azure;
-    font-size: 10px;
-
-    background-color: rgb(191, 165, 155);
-    border-color: rgb(191, 165, 155);
-    height: 50px;
-    border-radius: 0%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .container-btn-whatsapp {
-    background-color: rgb(255, 255, 255);
+    background-color: #d6ae3d;
     height: 220px;
-    font-family: roboto, sans-serif;
+    font-family: montserrat, sans-serif;
     text-align: center;
-    color: rgb(29, 29, 29);
+    color: #fff;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 h5 {
@@ -39,9 +32,61 @@ h5 {
     text-align: center;
 }
 
-.logo-emege-contenedor {
-    width: 1460px;
+
+.emege-logo {
+    width: 100%;
+    max-width: 100%;
     height: auto;
-}
+    
+    
+  }
 
+/*** ESTILOS BOTÓN GROW SPIN ***/
+.ov-btn-grow-spin-catalogo {
+    background: #fff; /* color de fondo */
+    color: black; /* color de fuente */
+    border: 1px solid #fff; /* tamaño y color de borde */
+    padding: 16px 20px;
+    border-radius: 5px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 40px;
+    font-family: rmontserat, sans-serif;
+    font-weight: 600;
+    
+  }
+  .ov-btn-grow-spin-catalogo:hover {
+    color: #fff; /* color de fuente hover */
+  }
+  .ov-btn-grow-spin-catalogo::after {
+    content: "";
+    background: bisque; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: 0;
+    right: 0;
+    top: -100%;
+    bottom: 100%;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+  .ov-btn-grow-spin-catalogo:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
 
+  h1 {
+    padding-top: 10px;
+  }
+
+  .card-img-top {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }

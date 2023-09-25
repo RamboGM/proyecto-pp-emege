@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/proyecto-pp-emege/static/css/main.a9b3bc41.css",
-    "main.js": "/proyecto-pp-emege/static/js/main.3dc8c9ca.js",
+    "main.css": "/proyecto-pp-emege/static/css/main.a976224e.css",
+    "main.js": "/proyecto-pp-emege/static/js/main.93410351.js",
     "static/media/portadaPrincipal.jpg": "/proyecto-pp-emege/static/media/portadaPrincipal.b189ef314ea53da54cd9.jpg",
     "static/media/logo.png": "/proyecto-pp-emege/static/media/logo.20f8196048b5c9786640.png",
     "static/media/Posavasos_Gatitoos.jpg": "/proyecto-pp-emege/static/media/Posavasos_Gatitoos.5d6c5f08ac3f30397079.jpg",
@@ -9,11 +9,11 @@
     "static/media/Posavados_2.jpg": "/proyecto-pp-emege/static/media/Posavados_2.f8207528fb0c9b080320.jpg",
     "static/media/Posavasos_Pelitos.jpg": "/proyecto-pp-emege/static/media/Posavasos_Pelitos.ba0cb5c8bcd487de368e.jpg",
     "index.html": "/proyecto-pp-emege/index.html",
-    "main.a9b3bc41.css.map": "/proyecto-pp-emege/static/css/main.a9b3bc41.css.map",
-    "main.3dc8c9ca.js.map": "/proyecto-pp-emege/static/js/main.3dc8c9ca.js.map"
+    "main.a976224e.css.map": "/proyecto-pp-emege/static/css/main.a976224e.css.map",
+    "main.93410351.js.map": "/proyecto-pp-emege/static/js/main.93410351.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9b3bc41.css",
-    "static/js/main.3dc8c9ca.js"
+    "static/css/main.a976224e.css",
+    "static/js/main.93410351.js"
   ]
 }

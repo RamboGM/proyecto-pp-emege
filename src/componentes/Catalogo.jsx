@@ -24,12 +24,14 @@ function CatalogoProductos() {
 
   const addToCart = (producto, cantidad) => {
     const isInCart = carrito.some((item) => item.id === producto.id);
-
+  
     if (!isInCart) {
       setCarrito([...carrito, { ...producto, cantidad }]);
+      setProductoAgregado({ ...producto, cantidad }); // Actualiza productoAgregado
       setShowPopup(true);
       setTimeout(() => {
         setShowPopup(false);
+        setProductoAgregado(null); // Limpia el productoAgregado después de mostrar el popup
       }, 2000);
     } else {
       const updatedCart = carrito.map((item) => {
@@ -54,15 +56,17 @@ function CatalogoProductos() {
   const compartirCarritoWhatsApp = () => {
     let mensaje = `¡Hola! Estoy interesado en los siguientes productos:\n\n`;
     carrito.forEach((producto) => {
-      mensaje += `${producto.name} - Cantidad: ${producto.cantidad} - Precio: $${producto.price}\n`;
+      mensaje += `Producto: ${producto.name}\n`;
+      mensaje += `Precio: $${producto.price}\n`;
+      mensaje += `Cantidad: ${producto.cantidad}\n\n`;
     });
-
+  
     const totalCompra = carrito.reduce(
       (total, producto) => total + producto.price * producto.cantidad,
       0
     );
     mensaje += `\nTotal de la compra: $${totalCompra.toFixed(2)}`;
-
+  
     const url = `https://api.whatsapp.com/send?phone=${encodeURIComponent(
       numeroWhatsApp
     )}&text=${encodeURIComponent(mensaje)}`;
@@ -73,6 +77,8 @@ function CatalogoProductos() {
     (total, producto) => total + producto.price * producto.cantidad,
     0
   );
+
+  const [productoAgregado, setProductoAgregado] = useState(null);
 
   return (
     <div>
@@ -85,7 +91,6 @@ function CatalogoProductos() {
             <div className="col-md-4 mb-4" key={producto.id}>
               <div className="card">
                 <Link to={`/product/${producto.id}`} className="card-link">
-                  {/* Carrusel de Bootstrap */}
                   <div
                     id={`carousel-${producto.id}`}
                     className="carousel slide"
@@ -230,11 +235,18 @@ function CatalogoProductos() {
         <Footer />
       </div>
       {showPopup && (
-        <div className="popup">
-          <p>Agregado al carrito 😊</p>
-          <h2>⬇️</h2>
-        </div>
-      )}
+      <div className="popup-right">
+        <p>Agregado al carrito 😊</p>
+        {productoAgregado && (
+          <>
+            <p>Producto: {productoAgregado.name}</p>
+            <p>Cantidad: {productoAgregado.cantidad}</p>
+            <p>Precio: ${productoAgregado.price}</p>
+          </>
+        )}
+        <h3>⬇️</h3>
+      </div>
+)}
     </div>
   );
 }

@@ -6,6 +6,7 @@
   height: 40px;
   border-color: #fff;
   width: auto;
+  min-width: auto;
 }
 
 .container-inicio {

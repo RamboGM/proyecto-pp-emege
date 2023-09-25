@@ -1,47 +1,68 @@
-.logo {
-    height: 40px;
+/* Footer Styles */
+.footer {
+  background-color: #bdbdbd; /* Cambia el color de fondo a tu preferencia */
+  color: white; /* Cambia el color del texto a tu preferencia */
+  padding: 20px 0;
 }
 
-/* Estilo base para el footer */
-.footer {
-    background: linear-gradient(to top, rgb(211, 218, 240), rgba(0, 0, 0, 0)); /* Degradado desde el color RGB hacia transparente de abajo hacia arriba */
-    color: rgb(0, 0, 0); /* Texto blanco */
-    padding: 20px 0; /* Espaciado interior superior e inferior */
-    display: flex; /* Usar flexbox para distribuir elementos */
-    justify-content: space-between; /* Espacio uniforme entre elementos */
-    align-items: center; /* Centrar verticalmente */
+.footer .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer h5 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer li {
+  margin-bottom: 8px;
+}
+
+.footer a {
+  color: white; /* Cambia el color de los enlaces a tu preferencia */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #cc7453; /* Cambia el color al pasar el mouse por encima a tu preferencia */
+}
+
+.footer .logo {
+  max-width: 100%;
+}
+
+/* Estilo para la información de contacto */
+.footer .contact-info {
+  text-align: right;
+}
+
+/* Media query para hacer el footer responsive */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
   }
-  
-  /* Estilo para la sección de Enlaces Rápidos */
-  .col-md-3 ul {
-    list-style-type: none; /* Quita los puntos de la lista */
-    padding: 0;
+
+  .footer .container {
+    justify-content: center;
   }
-  
-  .col-md-3 li {
-    margin-bottom: 10px; /* Espaciado entre elementos de la lista */
+
+  .footer .contact-info {
+    margin-top: 20px; /* Agrega un espacio entre los enlaces y la información de contacto */
+    text-align: center;
   }
-  
-  /* Estilo para el logo en el centro */
-  .col-md-3 {
-    text-align: center; /* Centrar horizontalmente el contenido de esta columna */
-    flex-grow: 1; /* Permitir que esta columna crezca para centrar el logo */
-  }
-  
-  .col-md-3 img.logo {
-    display: block;
-    margin: 0 auto; /* Centrar la imagen horizontalmente */
-  }
-  
-  /* Estilo para la sección de Contacto */
-  .col-md-6 h5 {
-    margin-top: 0; /* Eliminar el margen superior del encabezado */
-    text-align: right; /* Alinear el encabezado a la derecha */
-  }
-  
-  /* Estilo para el teléfono y el correo de contacto */
-  .col-md-6 p {
-    margin: 0; /* Eliminar el margen de los párrafos */
-    text-align: right; /* Alinear el texto a la derecha */
-  }
-  
+}
+
+.col-md-3 {
+  justify-content: left;
+}
+

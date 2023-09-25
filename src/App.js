@@ -22,9 +22,12 @@ function App() {
     <><div className='Logo-Principal-Marca'>
         <img src={Marca} alt='Imagen Marca' />
       </div>
+      
       <Router>
-
       <Navbar />
+      
+
+     
     
 
 
