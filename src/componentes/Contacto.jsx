@@ -9,6 +9,7 @@ const Contacto = () => {
           <><>
           <section className="contacto-container">
                   <div className="contacto-info">
+                    <img src='' alt=''/>
                       <h2>Contacto</h2>
                       <div className="contacto-datos">
                           <div className="dato">
@@ -32,7 +33,7 @@ const Contacto = () => {
                           href="https://api.whatsapp.com/send?phone=+543544523837&text=Hola%2C%20me%20gustaría%20contactar%20contigo."
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="whatsapp-btn"
+                          className="btn-whatsapp"
                       >
                           Chatear por WhatsApp
                       </a>

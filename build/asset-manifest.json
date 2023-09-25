@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/proyecto-pp-emege/static/css/main.a976224e.css",
-    "main.js": "/proyecto-pp-emege/static/js/main.93410351.js",
+    "main.css": "/proyecto-pp-emege/static/css/main.bf9ca6b4.css",
+    "main.js": "/proyecto-pp-emege/static/js/main.00168042.js",
     "static/media/portadaPrincipal.jpg": "/proyecto-pp-emege/static/media/portadaPrincipal.b189ef314ea53da54cd9.jpg",
-    "static/media/logo.png": "/proyecto-pp-emege/static/media/logo.20f8196048b5c9786640.png",
+    "static/media/Foto-derecha-banner.png": "/proyecto-pp-emege/static/media/Foto-derecha-banner.3474e7d43ec2b3c0a37a.png",
+    "static/media/Foto-izquierda-banner.png": "/proyecto-pp-emege/static/media/Foto-izquierda-banner.0fa75c642341e3b21993.png",
+    "static/media/Foto-del-medio-banner.png": "/proyecto-pp-emege/static/media/Foto-del-medio-banner.50f6bdc3910ba7bbb9cc.png",
     "static/media/Posavasos_Gatitoos.jpg": "/proyecto-pp-emege/static/media/Posavasos_Gatitoos.5d6c5f08ac3f30397079.jpg",
+    "static/media/contacto-banner_Mesa de trabajo 1.jpg": "/proyecto-pp-emege/static/media/contacto-banner_Mesa de trabajo 1.c17aaba662706bf23f3d.jpg",
     "static/media/Nombre-marca.png": "/proyecto-pp-emege/static/media/Nombre-marca.db190f8bb5affe90205c.png",
     "static/media/Posavados_2.jpg": "/proyecto-pp-emege/static/media/Posavados_2.f8207528fb0c9b080320.jpg",
     "static/media/Posavasos_Pelitos.jpg": "/proyecto-pp-emege/static/media/Posavasos_Pelitos.ba0cb5c8bcd487de368e.jpg",
     "index.html": "/proyecto-pp-emege/index.html",
-    "main.a976224e.css.map": "/proyecto-pp-emege/static/css/main.a976224e.css.map",
-    "main.93410351.js.map": "/proyecto-pp-emege/static/js/main.93410351.js.map"
+    "main.bf9ca6b4.css.map": "/proyecto-pp-emege/static/css/main.bf9ca6b4.css.map",
+    "main.00168042.js.map": "/proyecto-pp-emege/static/js/main.00168042.js.map"
   },
   "entrypoints": [
-    "static/css/main.a976224e.css",
-    "static/js/main.93410351.js"
+    "static/css/main.bf9ca6b4.css",
+    "static/js/main.00168042.js"
   ]
 }

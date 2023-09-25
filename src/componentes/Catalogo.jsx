@@ -26,17 +26,20 @@ function CatalogoProductos() {
     const isInCart = carrito.some((item) => item.id === producto.id);
   
     if (!isInCart) {
-      setCarrito([...carrito, { ...producto, cantidad }]);
-      setProductoAgregado({ ...producto, cantidad }); // Actualiza productoAgregado
+      const precioNumerico = parseFloat(producto.price);
+      setCarrito([...carrito, { ...producto, cantidad, price: precioNumerico }]);
+      setProductoAgregado({ ...producto, cantidad, price: precioNumerico });
       setShowPopup(true);
       setTimeout(() => {
         setShowPopup(false);
-        setProductoAgregado(null); // Limpia el productoAgregado después de mostrar el popup
-      }, 2000);
+        setProductoAgregado(null);
+      }, 3000);
     } else {
       const updatedCart = carrito.map((item) => {
         if (item.id === producto.id) {
-          return { ...item, cantidad: item.cantidad + cantidad };
+          const newCantidad = item.cantidad + cantidad;
+          const precioNumerico = parseFloat(item.price);
+          return { ...item, cantidad: newCantidad, price: precioNumerico };
         }
         return item;
       });

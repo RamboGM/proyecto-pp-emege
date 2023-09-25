@@ -189,5 +189,81 @@
   right: 20px;
   
 }
-  
-  
+
+.btn-whatsapp {
+  background: #495538; /* color de fondo */
+  color: #fff; /* color de fuente */
+  border: 1px solid beige; /* tamaño y color de borde */
+  padding: 16px 20px;
+  border-radius: 1px; /* redondear bordes */
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+.btn-whatsapp:hover {
+  color: #fff; /* color de fuente hover */
+}
+.btn-whatsapp::after {
+  content: "";
+  background: bisque; /* color de fondo hover */
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  left: 0;
+  right: 0;
+  top: -100%;
+  bottom: 100%;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.btn-whatsapp:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.btn-danger {
+  background: #cc7453; /* color de fondo */
+  color: black; /* color de fuente */
+  border: 1px solid beige; /* tamaño y color de borde */
+  padding: 16px 20px;
+  border-radius: 1px; /* redondear bordes */
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+.btn-danger:hover {
+  color: black; /* color de fuente hover */
+}
+.btn-danger::after {
+  content: "";
+  background: bisque; /* color de fondo hover */
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  left: 0;
+  right: 0;
+  top: -100%;
+  bottom: 100%;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.btn-danger:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+
+
+
