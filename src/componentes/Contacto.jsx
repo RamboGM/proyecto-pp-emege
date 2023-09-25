@@ -14,7 +14,7 @@ const Contacto = () => {
                       <div className="contacto-datos">
                           <div className="dato">
                               <i className="fas fa-envelope"></i>
-                              <span>Correo Electrónico: ejemplo@gmail.com</span>
+                              <span>Correo Electrónico: marmoran56@gmail.com</span>
                           </div>
                           <div className="dato">
                               <i className="fas fa-phone"></i>
@@ -33,7 +33,7 @@ const Contacto = () => {
                           href="https://api.whatsapp.com/send?phone=+543544523837&text=Hola%2C%20me%20gustaría%20contactar%20contigo."
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="btn-whatsapp"
+                          className="btn-whatsapp-contacto"
                       >
                           Chatear por WhatsApp
                       </a>

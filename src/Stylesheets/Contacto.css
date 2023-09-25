@@ -30,7 +30,7 @@
     text-align: center;
   }
   
-  .btn-whatsapp {
+  .btn-whatsapp-contacto {
     background: rgb(191, 165, 155); /* color de fondo */
     color: black; /* color de fuente */
     border: 1px solid beige; /* tamaño y color de borde */
@@ -42,11 +42,11 @@
     display: inline-block;
   }
   
-  .btn-whatsapp:hover {
+  .btn-whatsapp-contacto:hover {
     color: #fff; /* color de fuente hover */
   }
 
-  .btn-whatsapp::after {
+  .btn-whatsapp-contacto::after {
     content: "";
     background: bisque; /* color de fondo hover */
     position: absolute;
@@ -60,7 +60,7 @@
     -webkit-transition: all 0.35s;
     transition: all 0.35s;
   }
-  .btn-whatsapp:hover::after {
+  .btn-whatsapp-contacto:hover::after {
     left: 0;
     right: 0;
     top: 0;
@@ -95,5 +95,16 @@
   align-items: center;
  }
 
+ h2 {
+  display: flex;
+  justify-content: left;
+ }
+
+ .contacto-datos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+ }
 
   
